@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>Aereolinea Sanchez </h1>
+   
+        <nav class="nav">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">HORARIOS DE ATENCION</a></li>
+                <li><a href="#">DESTINOS</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+    
+            </ul>
+        </nav>
+    
+     </header>
+     
+
+    <form class="formulario">
+        <h2>Formulario : </h2>
+        <label for="">Nombre: </label><input type="text" name="nombre"> <br>
+        <br>
+        <label for="">Apellido: </label><input type="text" name="Apellido" size="15px"> <br>
+        <br>
+        <label for="">Contraseña: </label> <input type="password" name="Contraseña"> <br>
+        <br>
+        <label for="">Dni: </label> <input type="number" name="Dni"> <br>
+        <br>
+        <label for="">Email: </label> <input type="email" name="Email"> <br>
+        <br>
+        <label for="">Cel: </label> <input type="number" name="Numero de celular"> <br>
+        <br>
+        <h6>Seleccione su Nacionalidad</h6>
+        <select name="" id="">
+              <option value="Arg">Argentina</option>
+              <option value="Bra">Brasil</option>
+              <option value="Uy">Uruguay</option>
+              <option value="Chl">Chile</option>
+              <option value="Otro">Otro</option>
+
+        </select>
+        <br>
+        <br>
+        <h6>Indique sexo:</h6>
+        <label for="">Masculino: </label> <input type="radio" name="sexo"> <br>
+        <br>
+        <label for="">Femenino: </label> <input type="radio" name="sexo"> <br>
+        <br>
+        <label for="">Otro: </label> <input type="radio" name="sexo">
+        <br>
+        <h6>Indique sus intereses de viajes a continuacion</h6>
+        <input type="checkbox" name="Arg"> Argentina <br>
+        <input type="checkbox" name="Bra"> Brasil <br>
+        <input type="checkbox" name="Bol"> Bolivia <br>
+        <input type="checkbox" name="Chl"> Chile <br>
+        <input type="checkbox" name="Esp"> España <br>
+        <input type="checkbox" name="Ita"> Italia <br>
+        <input type="checkbox" name="Otros"> Otros <br>
+
+        <h6>Ingrese un comentario</h6>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <br>
+
+
+        <input type="submit" value="Enviar" >
+        <input type="reset" value="Borrar">
+    </form>
+
+    <footer>
+        <h6>Pagina creada por Elian</h6>
+        <h6><i>2023</i></h6>
+    </footer>
+
+
+</body>
+</html>

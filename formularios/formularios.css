@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    font-family: "broadway";
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    font-family: "broadway";
+}
+
+.formulario{
+    text-align: center;
+    border: solid 2px;
+}
+
+nav, ul, li, a{
+    text-decoration: none;
+    list-style: none;
+}
